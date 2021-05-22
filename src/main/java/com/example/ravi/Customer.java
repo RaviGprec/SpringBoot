@@ -4,9 +4,9 @@ import org.springframework.data.annotation.Id;
 
 public class Customer {
 	@Id
-	public String id;
-	public String fName;
-	public String lName;
+	private String id;
+	private String fName;
+	private String lName;
 	
 	public Customer() {
 		
